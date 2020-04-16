@@ -3,52 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>K-orsi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/068819cc4e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main>
+    <main class="m-4">
         <header>
-            <div class="banner">
-                <div class="banner-left">
-                    <h2>K-ORSI</h2>
-                    <h4>Feel the Comfort Using <br> Our Products</h4>
-                    <p>Ex ex loboris proident voluptate veniom. Esse ud Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, a!</p>
-                    <button>Shop Now</button>
-                    <button>Try to my Room</button>
+            <div class="banner flex w-full">
+                <div class="banner-left w-1/2 bg-local text-white">
+                    <div class="bannertext-wrap pl-40 pr-10">
+                        <div class="mt-5 flex">
+                            <img class="mr-2" src="dist/img/header-menu-icon.JPG" alt="">
+                            <h2><span class="font-bold">K-</span>ORSI</h2>
+                        </div>
+                        <div class="mt-24">
+                            <h4 class="text-4xl font-bold">Feel the Comfort<br> Using Our Products</h4>
+                            <p class="my-4 text-sm">Ex ex loboris proident voluptate veniom. Esse ud Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, a!</p>
+                            <button class="bg-orange-400 py-3 px-8 font-bold text-sm mr-2">Shop Now</button>
+                            <button class="border border-solid border-white py-3 px-4 text-sm">Try to my Room</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="banner-right">
-                    <img src="" alt="living room">
+                <div class="banner-right w-1/2">
+                    <img class="w-full" src="dist/img/bannerpic.JPG" alt="living room">
                 </div>
             </div>
         </header>
 
+        <div class="w-4/5 mx-auto">
         <nav>
-            <ul>
-                <li><img src="" alt="logo"></li>
-                <li><img src="" alt="logo"></li>
-                <li><img src="" alt="logo"></li>
-                <li><img src="" alt="logo"></li>
-                <li><img src="" alt="logo"></li>
+            <ul class="flex justify-between my-10">
+                <li><img src="dist/img/logo1.png" alt="logo"></li>
+                <li><img src="dist/img/logo2.png" alt="logo"></li>
+                <li><img src="dist/img/logo3.png" alt="logo"></li>
+                <li><img src="dist/img/logo4.png" alt="logo"></li>
+                <li><img src="dist/img/logo5.png" alt="logo"></li>
             </ul>
         </nav>
 
         <section>
-            <div class="feature-wrap">
-                <h2>Our Featured Item</h2>
-                <p>Commodo pariature tempor icndididunt cillum oficia minin ex elt prodent veniom duis eu laboris. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fuga vero odio, veritatis consequuntur maiores!</p>
-                <button><icon></icon></button>
-                <button><icon></icon></button>
+            <div class="feature-wrap flex mb-10">
+                <div class="w-1/2"><h2 class="text-4xl font-semibold text-gray-900">Our Featured Item</h2></div>
+                <div><p class="px-10 text-sm" style="border-left: 1px solid gray;">Commodo pariature tempor icndididunt cillum oficia minin ex elt prodent veniom duis eu laboris. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fuga vero odio, veritatis consequuntur maiores!</p></div>
+                <div>
+                    <button class="border border-solid px-5 py-3"><i class="fas fa-arrow-right"></i></button>
+                    <button class="border border-solid px-5 py-3 opacity-25"><i class="fas fa-arrow-left"></i></button>
+                </div>
             </div>
-            <div class="item-wrap">
-                <icon></icon>
-                <img src="" alt="sofa">
-                <h2>Color Choice</h2>
-                <ul>
-                    <li>green</li>
-                    <li>yellow</li>
-                    <li>blue</li>
-                    <li>purple</li>
-                </ul>
+            <div class="item-wrap flex mb-10">
+                <img class="h-20 mt-32" src="dist/img/tempsnip.png" alt="">
+                <img class="w-full" src="dist/img/sofa.png" alt="sofa">
+                 <div class="flex flex-col justify-center items-center">
+                    <h2 class="font-semibold">Color <br> Choice</h2>
+                    <img class="h-48 w-full" src="dist/img/colors.PNG" alt="">
+                </div>
+            </div>
+            <div class="w-full mx-auto text-center">
                 <button>See All Item</button>
             </div>
         </section>
@@ -126,7 +139,7 @@
                 <button>See All Item</button>
             </div>
         </section>
-
+        </div>
         <footer>
             <div class="footer-wrap">
                 <div class="footer-banner">
